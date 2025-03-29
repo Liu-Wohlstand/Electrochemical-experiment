@@ -6,13 +6,13 @@ from scipy.interpolate import UnivariateSpline
 from scipy.signal import find_peaks
 import pandas as pd
 
-name1 = '刘兴盛.csv'  # 输入已经转好格式的包含V和pH的数据
+name1 = '示例数据.csv'  # 输入已经转好格式的包含V和pH的数据
 V_buchong = []  # 需要补充的V数据
 pH_buchong = []  # 需要补充的pH数据
 
 V_shanchu=[]
 pH_shanchu=[]
-'''zrl
+'''如果实验不理想可以如下所示补充一些点
 V_buchong = [18.55, 18.8]  # 需要补充的V数据
 pH_buchong = [6.44, 6.85]  # 需要补充的pH数据
 '''
